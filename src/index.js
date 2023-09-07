@@ -1,12 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
+import 'font-awesome/css/font-awesome.min.css';
 import './styles.css';
+import 'leaflet/dist/leaflet.css';
+import { Home } from './components/Home';
 
-import { ListTrees } from './components/ListTrees';
-
-ReactDOM.render(
+const root = createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <ListTrees />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Home />
+  </React.StrictMode>
 );

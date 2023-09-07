@@ -1,16 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 body {
     background-image: url('../public/img/bg_home.jpg');
-    background-size: cover;        
-    background-repeat: no-repeat;   
-    background-position: center;  
-    height: 100vh;               
-}
-
-select option {
-    background-color: green;
-    color: white;           
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh;
 }

@@ -10,20 +10,20 @@ export const getTrees = async () => {
         });
 
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('La respuesta de la red no fue satisfactoria.');
         }
 
         const { objetos } = await response.json();
-        console.log(objetos);
         trees = objetos.map(tree => ({
             object_name: tree.object_name,
             image_url: tree.image_url,
             lat: tree.lat,
-            lon: tree.lon
+            lon: tree.lon,
+            zoom: 15
         }));
         
     } catch (error) {
-        console.error('There was a problem with the fetch operation:', error);
+        console.error('Hubo un problema con la operación de búsqueda:', error);
     }
 
     return trees;

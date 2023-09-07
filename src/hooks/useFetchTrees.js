@@ -9,8 +9,7 @@ export const useFetchTrees = () => {
     const newTrees = await getTrees();
     setTrees(newTrees);
     setIsLoading(false);
-}
-
+  }
 
   useEffect(() => {
     loadTrees();
