@@ -5,6 +5,8 @@ Esta es una aplicación React para visualizar la ubicación geográfica de árbo
 ## Instrucciones de instalación y ejecución
 
 1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/alexiaCat/react-app-roket.git
 
 2. Instalar dependencias `npm install`
 
@@ -13,4 +15,5 @@ Una vez iniciada, la aplicación estará disponible en http://localhost:3000/.
 
 ## Demo en vivo
 
-Accede a la aplicación en vivo aquí: [React App Roket en GitHub Pages]()
+Accede a la aplicación en vivo aquí: [React App Roket en GitHub Pages](https://alexiacat.github.io/react-app-roket)
+
